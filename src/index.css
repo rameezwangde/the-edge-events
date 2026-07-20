@@ -1054,6 +1054,7 @@ h3 em {
 .clients {
   background: #f8f8f4;
   overflow: hidden;
+  padding-bottom: clamp(3rem, 5vw, 6rem);
 }
 
 .clients-heading {
@@ -1110,6 +1111,7 @@ h3 em {
 
 .talents {
   background: #edf9fa;
+  padding-top: clamp(3rem, 5vw, 6rem);
 }
 
 .talents-grid {
