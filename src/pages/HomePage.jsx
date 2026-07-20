@@ -4,7 +4,7 @@ import ScrollProgress from '../components/ScrollProgress'
 import HeroSection from '../components/HeroSection'
 import BrandIntroduction from '../components/BrandIntroduction'
 import HorizontalServices from '../components/HorizontalServices'
-import EventShowcase from '../components/EventShowcase'
+
 import ExperienceStatement from '../components/ExperienceStatement'
 import WhyChooseUs from '../components/WhyChooseUs'
 import ClientsMarquee from '../components/ClientsMarquee'
@@ -35,7 +35,7 @@ export default function HomePage() {
     </Helmet>
     <ScrollProgress />
     <Navbar />
-    <main className="overflow-x-hidden w-full max-w-full"><HeroSection /><BrandIntroduction /><HorizontalServices /><EventShowcase /><ExperienceStatement /><WhyChooseUs /><ClientsMarquee /><TalentsPartners /><FinalCTA /></main>
+    <main className="overflow-x-hidden w-full max-w-full"><HeroSection /><BrandIntroduction /><HorizontalServices /><ExperienceStatement /><WhyChooseUs /><ClientsMarquee /><TalentsPartners /><FinalCTA /></main>
     <Footer /><WhatsAppButton />
   </>
 }
