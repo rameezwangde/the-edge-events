@@ -1181,6 +1181,7 @@ h3 em {
 
 .clients {
   background: #f8f8f4;
+  color: #171c20;
   overflow: hidden;
   padding-bottom: clamp(3rem, 5vw, 6rem);
 }
@@ -2002,7 +2003,6 @@ h3 em {
 html.dark .intro,
 html.dark .showcase,
 html.dark .people,
-html.dark .clients,
 html.dark .talents,
 html.dark .app-error {
   background: var(--bg-color);
