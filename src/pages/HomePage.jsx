@@ -8,6 +8,7 @@ import HorizontalServices from '../components/HorizontalServices'
 import ExperienceStatement from '../components/ExperienceStatement'
 import WhyChooseUs from '../components/WhyChooseUs'
 import ClientsMarquee from '../components/ClientsMarquee'
+import TestimonialsMarquee from '../components/TestimonialsMarquee'
 import TalentsPartners from '../components/TalentsPartners'
 import FinalCTA from '../components/FinalCTA'
 import Footer from '../components/Footer'
@@ -35,7 +36,7 @@ export default function HomePage() {
     </Helmet>
     <ScrollProgress />
     <Navbar />
-    <main className="overflow-x-hidden w-full max-w-full"><HeroSection /><BrandIntroduction /><HorizontalServices /><ExperienceStatement /><WhyChooseUs /><ClientsMarquee /><TalentsPartners /><FinalCTA /></main>
+    <main className="overflow-x-hidden w-full max-w-full"><HeroSection /><BrandIntroduction /><HorizontalServices /><ExperienceStatement /><WhyChooseUs /><ClientsMarquee /><TestimonialsMarquee /><TalentsPartners /><FinalCTA /></main>
     <Footer /><WhatsAppButton />
   </>
 }

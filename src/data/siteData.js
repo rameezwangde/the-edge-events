@@ -50,3 +50,11 @@ export const clientLogos = Array.from({ length: 12 }, (_, index) => ({
   src: `/images/client-${index + 1}.png`,
   alt: `The Edge Events client ${index + 1}`,
 }))
+
+export const testimonials = [
+  { quote: "The Edge Events transformed our corporate retreat into an unforgettable experience. Every detail was meticulously planned.", author: "Sarah J.", role: "Marketing Director" },
+  { quote: "Their ability to weave our brand's story into a physical space is unmatched. Truly a premium service.", author: "Ahmed Al M.", role: "CEO" },
+  { quote: "Flawless execution from start to finish. They handled our 500-person gala with incredible ease and professionalism.", author: "Elena R.", role: "Head of Operations" },
+  { quote: "Creative, dedicated, and visionary. The Edge Events elevated our product launch beyond our highest expectations.", author: "Michael T.", role: "Creative Director" },
+  { quote: "A seamless partnership. They understood our goals instantly and delivered a world-class event.", author: "Fatima D.", role: "VP of Communications" },
+]
