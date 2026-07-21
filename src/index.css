@@ -3,10 +3,17 @@
 @tailwind utilities;
 
 :root {
-  color: #171c20;
-  background: #f8f8f4;
+  --bg-color: #f8f8f4;
+  --text-color: #171c20;
+  color: var(--text-color);
+  background: var(--bg-color);
   font-family: 'Outfit', sans-serif;
   font-synthesis: none;
+}
+
+html.dark {
+  --bg-color: #171c20;
+  --text-color: #f8f8f4;
 }
 
 * {
@@ -21,7 +28,8 @@ body {
   margin: 0;
   min-width: 320px;
   overflow-x: hidden;
-  background: #f8f8f4;
+  background: var(--bg-color);
+  color: var(--text-color);
 }
 
 body,
@@ -1864,4 +1872,26 @@ h3 em {
 
 .app-error button:active {
   transform: translateY(1px);
+}
+
+/* Dark Mode Overrides for sections with hardcoded light backgrounds */
+html.dark .intro,
+html.dark .showcase,
+html.dark .people,
+html.dark .clients,
+html.dark .talents,
+html.dark .app-error {
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+html.dark .site-header--solid {
+  color: var(--text-color);
+  background: rgba(23, 28, 32, 0.95);
+  border-bottom: 1px solid rgba(248, 248, 244, 0.15);
+}
+
+html.dark .site-header .edge-logo,
+html.dark .site-header img {
+  filter: brightness(0) invert(1);
 }

@@ -3,6 +3,7 @@ import { Menu } from 'lucide-react'
 import { Link, NavLink, useLocation } from 'react-router-dom'
 import { navigation } from '../data/siteData'
 import MobileMenu from './MobileMenu'
+import ThemeToggle from './ThemeToggle'
 
 export default function Navbar({ forceSolid = false }) {
   const [scrolled, setScrolled] = useState(false)
@@ -32,8 +33,11 @@ export default function Navbar({ forceSolid = false }) {
             <NavLink key={item.to} to={item.to}>{item.label}</NavLink>
           ))}
         </nav>
-        <Link to="/contact" className="nav-cta"><span>Plan Your Event</span><span aria-hidden="true">↗</span></Link>
-        <button className="menu-toggle" onClick={() => setMenuOpen(true)} aria-label="Open menu"><Menu /></button>
+        <div className="flex items-center gap-4">
+          <ThemeToggle />
+          <Link to="/contact" className="nav-cta"><span>Plan Your Event</span><span aria-hidden="true">↗</span></Link>
+          <button className="menu-toggle" onClick={() => setMenuOpen(true)} aria-label="Open menu"><Menu /></button>
+        </div>
       </header>
       <MobileMenu open={menuOpen} onClose={() => setMenuOpen(false)} />
     </>
