@@ -951,6 +951,7 @@ h3 em {
   overflow: hidden;
   background: #f8f8f4;
   color: #171c20;
+  padding-bottom: clamp(3rem, 5vw, 5rem);
 }
 
 .why-split {
@@ -1181,6 +1182,7 @@ h3 em {
   background: #f8f8f4;
   color: #171c20;
   overflow: hidden;
+  padding-top: clamp(3rem, 5vw, 5rem);
   padding-bottom: clamp(3rem, 5vw, 6rem);
 }
 
