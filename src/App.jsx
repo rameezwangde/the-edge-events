@@ -6,7 +6,7 @@ import HomePage from './pages/HomePage'
 import PlaceholderPage from './pages/PlaceholderPage'
 
 const pages = [
-  ['/services', 'Services'], ['/event-showcase', 'Event Showcase'], ['/clients', 'Clients'],
+  ['/services', 'Services'], ['/portfolio', 'Portfolio'], ['/clients', 'Clients'],
   ['/about', 'About Us'], ['/talents-partners', 'Talents & Partners'], ['/contact', 'Contact'],
 ]
 

@@ -37,7 +37,7 @@ export default function EventShowcase() {
                 <span>{String(index + 1).padStart(2, '0')}</span><strong>{item.title}</strong><span>{item.category}</span>
               </button>
             ))}
-            <EdgeLink to="/event-showcase">View Event Showcase</EdgeLink>
+            <EdgeLink to="/portfolio">View Portfolio</EdgeLink>
           </div>
         </div>
       </div>

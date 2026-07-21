@@ -1,11 +1,10 @@
 export const navigation = [
   { label: 'Home', to: '/' },
-  { label: 'Services', to: '/services' },
-  { label: 'Event Showcase', to: '/event-showcase' },
-  { label: 'Clients', to: '/clients' },
   { label: 'About Us', to: '/about' },
-  { label: 'Talents / Partners', to: '/talents-partners' },
-  { label: 'Contact', to: '/contact' },
+  { label: 'Services', to: '/services' },
+  { label: 'Portfolio', to: '/portfolio' },
+  { label: 'Talents & Partners', to: '/talents-partners' },
+  { label: 'Contact Us', to: '/contact' },
 ]
 
 export const services = [
