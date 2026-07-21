@@ -14,21 +14,21 @@ export const services = [
     title: 'Edge Engagements',
     descriptor: 'Corporate events',
     copy: 'Corporate events, employee experiences, conferences, celebrations and meaningful brand gatherings — conceived with purpose and delivered without friction.',
-    image: '/images/service-engagements.jpg',
+    image: '/images/service-engagements-new.png',
   },
   {
     number: '02',
     title: 'Edge Exclusive',
     descriptor: 'Social celebrations',
     copy: 'Premium private events, bespoke experiences and carefully curated occasions that feel unmistakably personal.',
-    image: '/images/service-exclusive.jpg',
+    image: '/images/service-exclusive-new.png',
   },
   {
     number: '03',
     title: 'Edge Exploration',
     descriptor: 'Travel & expeditions',
     copy: 'Destination experiences, outdoor programmes, team adventures and cultural journeys across the UAE and beyond.',
-    image: '/images/hero-wide.jpg',
+    image: '/images/service-exploration-new.png',
   },
 ]
 
