@@ -726,12 +726,10 @@ h3 em {
 }
 
 .service-panel__media img {
-  width: 116%;
+  width: 100%;
   max-width: none;
   height: 100%;
   object-fit: cover;
-  filter: saturate(.78) contrast(1.05);
-  transform: translateX(-8%);
 }
 
 .service-panel__body {

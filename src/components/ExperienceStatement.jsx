@@ -37,7 +37,7 @@ export default function ExperienceStatement() {
 
   return (
     <section className="people section-space">
-
+      <div className="people-visual"><img src="/images/showcase-1.jpg" alt="Guests sharing a memorable Edge Events experience" width="1600" height="900" loading="lazy" /></div>
       <div className="page-shell people-content">
         <div className="people-title"><p className="eyebrow">Built around people</p><h2>Great events are not measured only by scale.<br /><em>They are remembered by how they make people feel.</em></h2></div>
         <div className="flex w-full items-center justify-center py-20 lg:py-0 lg:justify-start lg:-ml-32 min-h-[480px] lg:min-h-0">

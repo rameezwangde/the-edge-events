@@ -14,7 +14,7 @@ export const services = [
     title: 'Edge Engagements',
     descriptor: 'Corporate events',
     copy: 'Corporate events, employee experiences, conferences, celebrations and meaningful brand gatherings — conceived with purpose and delivered without friction.',
-    image: '/images/service-engagements.jpg',
+    image: '/images/showcase-1.jpg',
   },
   {
     number: '02',
