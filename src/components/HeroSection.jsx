@@ -74,7 +74,7 @@ export default function HeroSection() {
       </div>
 
       <svg className="hero-edge" viewBox="0 0 1440 900" preserveAspectRatio="none" fill="none" aria-hidden="true">
-        <path className="edge-trace" d="M 1050 1100 L 1450 150 L 2200 150" stroke="#00b7d7" strokeWidth="2" strokeDasharray="2000" />
+        <path className="edge-trace" d="M 850 1100 L 1250 150 L 2200 150" stroke="#00b7d7" strokeWidth="2" strokeDasharray="2000" />
       </svg>
       
       <a href="#introduction" className="scroll-cue">
