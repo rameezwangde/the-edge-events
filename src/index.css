@@ -1227,8 +1227,7 @@ h3 em {
   width: 145px;
   height: 80px;
   object-fit: contain;
-  filter: grayscale(1);
-  opacity: .62;
+  opacity: 1;
 }
 
 @keyframes logo-scroll {
